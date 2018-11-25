@@ -1,0 +1,421 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,800|Poppins:300,400,700');
+
+
+html,
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #334d88;
+    font-weight: 400;
+    margin: 0 auto;
+    position: relative;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container-fluid.wild{
+  max-width: 1210px;
+  padding: 0;
+}
+
+p,li{
+    font-size: 1rem;
+    display: block;
+    line-height: 1.6;
+}
+
+.top-span{
+  font-size: 1rem;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+h1, h2, h3{
+  color: #334D88;
+  font-weight: 700;
+  font-family: inherit;
+  line-height: 1.3;
+}
+
+h1{
+  font-size: 3rem;
+}
+
+h2{
+  font-size: 2rem;
+}
+
+h3{
+  font-size: 1.2rem;
+}
+
+
+
+/*--- Nav memu ---*/
+
+.navbar {
+  padding: 50px;
+  z-index: 999;
+  line-height: 50px;
+  height: 50px;
+}
+   
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #334D88 !important;
+}
+
+.navbar.compressed {
+  padding: 35px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transition: all .38s ease;
+  -moz-transition: all .38s ease;
+  -ms-transition: all .38s ease;
+  transition: all .38s ease;
+  background: #fff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.navbar-toggler span {
+    color: #85CB33;
+    font-size: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.navbar-toggler:focus {
+    outline: none!important;
+    box-shadow: none!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+ font-family: "Montserrat", sans-serif;
+ letter-spacing: 1px;
+  text-transform: capitalize;
+  transition: all 0.3s ease 0s;
+  display: block;
+  font-weight: 500;
+  font-size:  1rem;
+  text-transform: capitalize;
+  margin-left: 20px;
+  padding-top: 10px;
+  color: #334d88;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #5b709f;
+}
+
+
+/*--drop down manu--*/
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #192644;
+    min-width: 210px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #28cc8b;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 0.8rem;
+}
+
+.dropdown-content a:hover {
+  background-color: #334d88;
+  color: #fff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #28cc8b;
+}
+
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  font-weight: 800;
+  color: #334D88;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link:hover {
+  color: #334D88;
+}
+
+.btn{
+  padding: 15px 30px !important; 
+  border-radius: 50px;
+  line-height: 15px;
+  letter-spacing: 0.2px;
+  margin-right: 20px;
+  font-family: "Montserrat", sans-serif;
+  border: 1px solid #28cc8b;
+}
+
+.btn:hover{
+  background-color: #4BDCA2;
+}
+
+.contact-btn{
+  color: #fff !important;
+  background-color: #28cc8b;
+  font-weight: 700 !important;
+}
+
+.learn-btn{
+  background-color: #fff;
+  color: #28cc8b;
+  font-weight: 600;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.learn-btn:hover{
+  color: #fff;
+}
+
+#hero{
+  overflow: hidden;
+  background: #fcfcfd url(http://spaceraceit.com/wp/subtech/wp-content/uploads/2018/10/header-bg-21.png) top right/auto no-repeat scroll;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+.hero-caption{
+  max-width: 40rem;
+}
+
+.hero-image{
+  position: absolute;
+  right: 60px;
+  top: 245px;
+}
+
+.hero-image.image-resize{
+  height: 450px;
+  object-fit: cover;
+  object-position: center center;
+}
+
+/*---Values---*/
+.section-space{
+  padding: 100px 0;
+}
+
+.value-content{
+  padding-top: 30px;
+}
+
+.sb-values .col1{
+  margin-top: 20px;
+}
+
+.col1 img{
+  margin-bottom: 10px;
+}
+
+.value-p{
+  padding: 0 20px;
+}
+
+/*--advantages--*/
+.advantages{
+  background-color: #f7f8fb;
+}
+
+.advantages-content{
+  padding-right: 200px;
+  padding-top: 50px
+} 
+
+.btn.contact-btn.adv{
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+}
+
+.btn.contact-btn.adv:hover{
+  color: #28cc8b !important;
+  background-color: #fff;
+}
+
+/*---services---*/
+.services .value-content{
+  margin-top: 20px;
+}
+
+.ser-p{
+  padding-right: 20px;
+  text-align: justify-all;
+}
+
+.ser-p .serv-buttom{
+  text-decoration: none;
+  color: #28cc8b;
+  letter-spacing: 0.2px;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.ser-p .serv-buttom:hover{
+  color: #73817f;
+}
+
+/*------Developmen projects-----*/
+
+
+.value-content .image-resize{
+  height: 300px;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.portfolio-btn{
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 80px;
+  text-transform: uppercase;
+}
+
+/*---footer---*/
+
+.footer{
+  background-color: #f7f8fb;
+}
+
+.back-row{
+  background-color: #ffffff !important;
+  padding: 50px 20px;
+  border-radius: 5px;
+}
+
+.footer .contact-btn{
+  margin-right: 0;
+}
+
+.last-row{
+  margin-top: 90px;
+}
+
+.footer-btn{
+  float: right;
+  margin-top: 60px;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  border-radius: 20px;
+  letter-spacing: 0.2px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  background-color: #28cc8b;
+  font-weight: 700;
+}
+
+.footer-btn:hover{
+  background-color: none;
+}
+
+.footer .list-unstyle{
+  padding: 0;
+}
+
+.footer .social{
+  margin-top: 20px;
+}
+
+.footer .social a{
+  display: inline-block;
+  padding-right: 2px;
+}
+
+.footer i{
+  color: #28cc8b;
+  font-weight: 600;
+}
+
+.pages .nav-link{
+  padding: 0;
+  text-decoration: none;
+  color: #334d88;
+}
+
+.pages .nav-link:hover {
+  color: #7082ab;
+}
+
+.last-p{
+  margin-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
